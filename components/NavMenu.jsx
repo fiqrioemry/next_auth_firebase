@@ -16,10 +16,10 @@ const NavMenu = () => {
     },
   ];
   return (
-    <nav className="flex items-center justify-between gap-x-2">
+    <nav className="flex justify-between gap-x-2">
       {Links.map((item, index) => {
         return (
-          <Link href={item.path} className="px-2 capitalize" key={index}>
+          <Link href={item.path} className="px-2 " key={index}>
             {item.name}
           </Link>
         );

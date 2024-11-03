@@ -5,7 +5,7 @@ import NavProfil from "./NavProfil";
 const Header = () => {
   return (
     <header className="py-6">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between min-h-[50px]">
         <div>
           <h1 className="text-xl font-semibold">
             Next<span className="text-secondary">Project</span>
